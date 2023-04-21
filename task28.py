@@ -7,6 +7,7 @@
 # Output: 4 
 
 def sum_nums(number_1: int, number_2: int) -> int:
+    """Сложение двух целых неотрицательных чисел через рекурсию"""
     min_num = min(number_1, number_2)
     max_num = max(number_1, number_2)
     if min_num == 0:
